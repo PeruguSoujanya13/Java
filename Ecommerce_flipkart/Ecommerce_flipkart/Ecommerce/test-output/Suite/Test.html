@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 01 08:46:04 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>176 seconds (176951 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ecommerce.EdgeBrowserTest.scrollDown()'><b>scrollDown</b><br>Test class: com.ecommerce.EdgeBrowserTest<br/>
+<a href="#Output-724081353" onClick='toggleBox("Output-724081353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-724081353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-724081353">
+Navigates to the bottom of the page<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.ecommerce.EdgeBrowserTest@47d9a273</td></tr>
+<tr>
+<td title='com.ecommerce.ChromeBrowserTest.LoadTimeTest()'><b>LoadTimeTest</b><br>Test class: com.ecommerce.ChromeBrowserTest<br/>
+<a href="#Output-763755364" onClick='toggleBox("Output-763755364", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-763755364" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-763755364">
+Page is loaded within the time limit<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.ecommerce.ChromeBrowserTest@53aac487</td></tr>
+<tr>
+<td title='com.ecommerce.EdgeBrowserTest.scrollImageLoad()'><b>scrollImageLoad</b><br>Test class: com.ecommerce.EdgeBrowserTest<br/>
+<a href="#Output-351535152" onClick='toggleBox("Output-351535152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-351535152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-351535152">
+Image is not present before scrolling<br/>
+Image is present after scrolling<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.ecommerce.EdgeBrowserTest@47d9a273</td></tr>
+<tr>
+<td title='com.ecommerce.ChromeBrowserTest.refreshContentTest()'><b>refreshContentTest</b><br>Test class: com.ecommerce.ChromeBrowserTest<br/>
+<a href="#Output-592048461" onClick='toggleBox("Output-592048461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-592048461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-592048461">
+Total Content Load Time while Scrolling: 87 milliseconds<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.ecommerce.ChromeBrowserTest@53aac487</td></tr>
+<tr>
+<td title='com.ecommerce.EdgeBrowserTest.scrollFeatureTest()'><b>scrollFeatureTest</b><br>Test class: com.ecommerce.EdgeBrowserTest<br/>
+<a href="#Output-265939934" onClick='toggleBox("Output-265939934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265939934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265939934">
+Scrollbar visible.<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.ecommerce.EdgeBrowserTest@47d9a273</td></tr>
+<tr>
+<td title='com.ecommerce.EdgeBrowserTest.refreshContentTest()'><b>refreshContentTest</b><br>Test class: com.ecommerce.EdgeBrowserTest<br/>
+<a href="#Output-1888952688" onClick='toggleBox("Output-1888952688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1888952688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1888952688">
+Total Content Load Time while Scrolling: 129 milliseconds<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.ecommerce.EdgeBrowserTest@47d9a273</td></tr>
+<tr>
+<td title='com.ecommerce.ChromeBrowserTest.scrollFeatureTest()'><b>scrollFeatureTest</b><br>Test class: com.ecommerce.ChromeBrowserTest<br/>
+<a href="#Output-840737335" onClick='toggleBox("Output-840737335", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-840737335" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-840737335">
+Scrollbar visible.<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.ecommerce.ChromeBrowserTest@53aac487</td></tr>
+<tr>
+<td title='com.ecommerce.ChromeBrowserTest.ImageScreenHeightTest()'><b>ImageScreenHeightTest</b><br>Test class: com.ecommerce.ChromeBrowserTest<br/>
+<a href="#Output-797526745" onClick='toggleBox("Output-797526745", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-797526745" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-797526745">
+images are loaded and are visible till the screen height<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.ecommerce.ChromeBrowserTest@53aac487</td></tr>
+<tr>
+<td title='com.ecommerce.ChromeBrowserTest.scrollImageLoad()'><b>scrollImageLoad</b><br>Test class: com.ecommerce.ChromeBrowserTest<br/>
+<a href="#Output-713765818" onClick='toggleBox("Output-713765818", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-713765818" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-713765818">
+Image is not present before scrolling<br/>
+Image is present after scrolling<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.ecommerce.ChromeBrowserTest@53aac487</td></tr>
+<tr>
+<td title='com.ecommerce.ChromeBrowserTest.scrollDown()'><b>scrollDown</b><br>Test class: com.ecommerce.ChromeBrowserTest<br/>
+<a href="#Output-1759522611" onClick='toggleBox("Output-1759522611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1759522611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1759522611">
+Navigates to the bottom of the page<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.ecommerce.ChromeBrowserTest@53aac487</td></tr>
+<tr>
+<td title='com.ecommerce.ChromeBrowserTest.productSearch()'><b>productSearch</b><br>Test class: com.ecommerce.ChromeBrowserTest<br/>
+<a href="#Output-1877317084" onClick='toggleBox("Output-1877317084", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1877317084" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1877317084">
+Product found<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.ecommerce.ChromeBrowserTest@53aac487</td></tr>
+<tr>
+<td title='com.ecommerce.EdgeBrowserTest.productSearch()'><b>productSearch</b><br>Test class: com.ecommerce.EdgeBrowserTest<br/>
+<a href="#Output-763008902" onClick='toggleBox("Output-763008902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-763008902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-763008902">
+Product found<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.ecommerce.EdgeBrowserTest@47d9a273</td></tr>
+<tr>
+<td title='com.ecommerce.EdgeBrowserTest.ImageScreenHeightTest()'><b>ImageScreenHeightTest</b><br>Test class: com.ecommerce.EdgeBrowserTest<br/>
+<a href="#Output-804347788" onClick='toggleBox("Output-804347788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-804347788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-804347788">
+images are loaded and are visible till the screen height<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.ecommerce.EdgeBrowserTest@47d9a273</td></tr>
+<tr>
+<td title='com.ecommerce.EdgeBrowserTest.LoadTimeTest()'><b>LoadTimeTest</b><br>Test class: com.ecommerce.EdgeBrowserTest<br/>
+<a href="#Output-74606989" onClick='toggleBox("Output-74606989", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-74606989" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-74606989">
+Page is loaded within the time limit<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.ecommerce.EdgeBrowserTest@47d9a273</td></tr>
+</table><p>
+</body>
+</html>
